@@ -1,0 +1,13 @@
+all: run
+
+run: main.o rectangle.o
+	g++ main.o rectangle.o -o run
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+rectangle.o: rectangle.cpp
+	g++ -c rectangle.cpp
+
+clean:
+	rm -rf *o run

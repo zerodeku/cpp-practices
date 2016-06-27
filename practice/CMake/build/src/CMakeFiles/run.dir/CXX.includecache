@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yl2/Documents/CppCode/practice/CMake/src/main.cpp
+rectangle.h
+/Users/yl2/Documents/CppCode/practice/CMake/src/rectangle.h
+iostream
+-
+
+/Users/yl2/Documents/CppCode/practice/CMake/src/rectangle.cpp
+rectangle.h
+/Users/yl2/Documents/CppCode/practice/CMake/src/rectangle.h
+
+/Users/yl2/Documents/CppCode/practice/CMake/src/rectangle.h
+

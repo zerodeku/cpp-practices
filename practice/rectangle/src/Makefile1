@@ -1,0 +1,5 @@
+# this target is the default target of this make file
+all:
+	g++ main.cpp rectangle.cpp -o run
+second:
+	g++ main.cpp rectangle.cpp -o run
